@@ -1,0 +1,13 @@
+[Unit]
+Description=Ocypus L36 LCD Temperature Display
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /opt/ocypus/ocypus-control.py on -u c -s k10temp -r 1 --interface 1
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
