@@ -2,7 +2,9 @@
 """
 ocypus-control.py
 ---------------------------------
-Ocypus LCD driver (Linux)
+Ocypus Iota L36 LCD driver (Linux)
+
+Modified from ocypus-control.py, all credits to moyunkz - https://github.com/moyunkz/ocypus-a40-digital-linux
 
 Ajustado para controladores que aceitam UPDATE via HID *output report* (device.write),
 com report ID 0x07, comprimento 64, e header 0xFF 0xFF + 3 dígitos (centenas/dezenas/unidades).
