@@ -1,4 +1,4 @@
-# Ocypus L36 Linux
+# Ocypus Iota L36 Linux
 
 A userspace Linux driver to control the **Ocypus Iota L36** LCD display (CachyOS/Arch tested).  
 It shows system temperature on the cooler display via **USB HID** and can auto-start on boot using **systemd**.
